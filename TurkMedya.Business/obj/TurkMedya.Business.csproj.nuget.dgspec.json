@@ -1,0 +1,218 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Business/TurkMedya.Business.csproj": {}
+  },
+  "projects": {
+    "/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Business/TurkMedya.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Business/TurkMedya.Business.csproj",
+        "projectName": "TurkMedya.Business",
+        "projectPath": "/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Business/TurkMedya.Business.csproj",
+        "packagesPath": "/Users/zekiboy/.nuget/packages/",
+        "outputPath": "/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/zekiboy/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Data/TurkMedya.Data.csproj": {
+                "projectPath": "/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Data/TurkMedya.Data.csproj"
+              },
+              "/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Entity/TurkMedya.Entity.csproj": {
+                "projectPath": "/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Entity/TurkMedya.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.314/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Data/TurkMedya.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Data/TurkMedya.Data.csproj",
+        "projectName": "TurkMedya.Data",
+        "projectPath": "/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Data/TurkMedya.Data.csproj",
+        "packagesPath": "/Users/zekiboy/.nuget/packages/",
+        "outputPath": "/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/zekiboy/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Entity/TurkMedya.Entity.csproj": {
+                "projectPath": "/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Entity/TurkMedya.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[111.2.0, )"
+            },
+            "System.IO": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.314/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Entity/TurkMedya.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Entity/TurkMedya.Entity.csproj",
+        "projectName": "TurkMedya.Entity",
+        "projectPath": "/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Entity/TurkMedya.Entity.csproj",
+        "packagesPath": "/Users/zekiboy/.nuget/packages/",
+        "outputPath": "/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Entity/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/zekiboy/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.314/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

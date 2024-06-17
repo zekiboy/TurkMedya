@@ -1,0 +1,16 @@
+﻿@model TurkMedya.Entity.DetailEntities.DetailRoot
+
+@{
+    ViewData["Title"] = "News Detail";
+}
+
+<h1>@Model.Data.NewsDetail.Title</h1>
+<p>@Model.Data.NewsDetail.PublishDate</p>
+<img src="@Model.Data.NewsDetail.ImageUrl" alt="@Model.Data.NewsDetail.Title" />
+<div>@Html.Raw(Model.Data.NewsDetail.BodyText)</div>
+<a href="@Model.Data.NewsDetail.FullPath">Devamını oku...</a>
+
+<h2>İlgili Haberler</h2>
+<h3>@Model.Data.RelatedNews.Title</h3>
+<p>@Model.Data.RelatedNews.ShortText</p>
+<img src="@Model.Data.RelatedNews.ImageUrl" alt="@Model.Data.RelatedNews.Title" />

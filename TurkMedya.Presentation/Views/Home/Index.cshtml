@@ -1,0 +1,67 @@
+﻿@model TurkMedya.Presentation.Models.HomeViewModel
+
+@{
+    ViewData["Title"] = "Anasayfa";
+}
+
+<div class="container mt-8">
+
+    <h5 class="mb-4">HABER FİLTRELEME</h5>
+
+    <div class="col-md-8">
+        <form action="/home/index">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Anahtar Kelime</label>
+                <input name="keyword" type="text" class="form-control mr-1 " placeholder="İçerik Ara">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Kategori</label>
+                <input name="category" type="text" class="form-control mr-1 " placeholder="Kategori Ara">
+            </div>
+
+            <br />
+            <button type="submit" class="btn btn-primary">Filtrele</button>
+        </form>
+    </div>
+    <br />
+    <h1 class="mb-4">HABERLER</h1>
+
+
+
+    @foreach (var data in Model.NewsItems)
+     {
+
+
+        <div class="card mb-3">
+            <img src="@data.ImageUrl" alt="@data.Title" />
+            <div class="card-body">
+                <h3 class="card-title">@data.Title</h3>
+                <p class="card-text">@data.ShortText</p>
+                <p>Kategor: @data.Category.Title</p>
+                <p class="card-text">Yayın tarihi: @data.PublishDate</p>
+                <a asp-action="Detail" asp-route-id="@data.ItemId">Haber detay incele</a>
+            </div>
+        </div>
+
+        <br />
+     }
+
+
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center mt-4">
+            <li class="page-item @(Model.PageNumber == 1 ? "disabled" : "")">
+                <a class="page-link" asp-action="Index" asp-route-pageNumber="@(Model.PageNumber - 1)" asp-route-pageSize="@Model.PageSize" asp-route-category="@ViewContext.HttpContext.Request.Query["category"]" asp-route-keyword="@ViewContext.HttpContext.Request.Query["keyword"]">Geri</a>
+            </li>
+            @for (int i = 1; i <= Model.TotalPages; i++)
+            {
+                <li class="page-item @(Model.PageNumber == i ? "active" : "")">
+                    <a class="page-link" asp-action="Index" asp-route-pageNumber="@i" asp-route-pageSize="@Model.PageSize" asp-route-category="@ViewContext.HttpContext.Request.Query["category"]" asp-route-keyword="@ViewContext.HttpContext.Request.Query["keyword"]">@i</a>
+                </li>
+            }
+            <li class="page-item @(Model.PageNumber == Model.TotalPages ? "disabled" : "")">
+                <a class="page-link" asp-action="Index" asp-route-pageNumber="@(Model.PageNumber + 1)" asp-route-pageSize="@Model.PageSize" asp-route-category="@ViewContext.HttpContext.Request.Query["category"]" asp-route-keyword="@ViewContext.HttpContext.Request.Query["keyword"]">İleri</a>
+            </li>
+        </ul>
+    </nav>
+</div>

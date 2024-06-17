@@ -1,0 +1,17 @@
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Data/bin/Debug/net7.0/TurkMedya.Data.deps.json
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Data/bin/Debug/net7.0/TurkMedya.Data.dll
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Data/bin/Debug/net7.0/TurkMedya.Data.pdb
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Data/bin/Debug/net7.0/TurkMedya.Entity.dll
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Data/bin/Debug/net7.0/TurkMedya.Entity.pdb
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Data/obj/Debug/net7.0/TurkMedya.Data.csproj.AssemblyReference.cache
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Data/obj/Debug/net7.0/TurkMedya.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Data/obj/Debug/net7.0/TurkMedya.Data.AssemblyInfoInputs.cache
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Data/obj/Debug/net7.0/TurkMedya.Data.AssemblyInfo.cs
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Data/obj/Debug/net7.0/TurkMedya.Data.csproj.CoreCompileInputs.cache
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Data/obj/Debug/net7.0/TurkMedya.Data.csproj.CopyComplete
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Data/obj/Debug/net7.0/TurkMedya.Data.dll
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Data/obj/Debug/net7.0/refint/TurkMedya.Data.dll
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Data/obj/Debug/net7.0/TurkMedya.Data.pdb
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Data/obj/Debug/net7.0/ref/TurkMedya.Data.dll
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Data/bin/Debug/net7.0/TurkMedya.Data.runtimeconfig.json
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Data/obj/Debug/net7.0/TurkMedya.Data.genruntimeconfig.cache

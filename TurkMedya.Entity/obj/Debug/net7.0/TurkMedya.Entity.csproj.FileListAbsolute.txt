@@ -1,0 +1,12 @@
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Entity/bin/Debug/net7.0/TurkMedya.Entity.deps.json
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Entity/bin/Debug/net7.0/TurkMedya.Entity.dll
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Entity/bin/Debug/net7.0/TurkMedya.Entity.pdb
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Entity/obj/Debug/net7.0/TurkMedya.Entity.csproj.AssemblyReference.cache
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Entity/obj/Debug/net7.0/TurkMedya.Entity.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Entity/obj/Debug/net7.0/TurkMedya.Entity.AssemblyInfoInputs.cache
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Entity/obj/Debug/net7.0/TurkMedya.Entity.AssemblyInfo.cs
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Entity/obj/Debug/net7.0/TurkMedya.Entity.csproj.CoreCompileInputs.cache
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Entity/obj/Debug/net7.0/TurkMedya.Entity.dll
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Entity/obj/Debug/net7.0/refint/TurkMedya.Entity.dll
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Entity/obj/Debug/net7.0/TurkMedya.Entity.pdb
+/Users/zekiboy/Desktop/TurkMedya/TurkMedya.Entity/obj/Debug/net7.0/ref/TurkMedya.Entity.dll
